@@ -43,50 +43,6 @@ stock_agent=Agent(
     markdown=True,
 )
 
-# input_query = None  # Define a global variable
-# op_response = None
-# def save_argument(arg):
-#     global input_query  # Use the global variable
-#     saved_args = arg
-#     print(f"Argument '{arg}' saved.")
-
-# save_argument("Hello, World!")
-# print(f"Saved argument: {saved_args}")
-
-# def stock(query):
-#     global input_query  # Use the global variable
-#     input_query = query
-#     global op_response  
-#     op_response=stock_agent.print_response(input_query,stream=True)
-#     return op_response
 stock_agent.print_response('nvda stock information')
-# result=stock('short information of NVDA stock')
-# print(result)
 
-# checking_agent=Agent(
-#     name="checking_agent",
-#     model=Groq(id="llama-3.3-70b-versatile",api_key=os.environ.get("GROQ_API_KEY")),
-#     instructions=[f" for given context  = {op_response}. and the given query= {input_query}. give iformation about improvements that needs to be made by context regarding query",
-#                   "give rankng between 1 to 10 based on performance of context for input query"],
-#     show_tool_calls=True,
-#     markdown=True,
-# )
-
-# checking_agent.print_response()
-
-
-
-# feedback_agent= Agent(
-#     name="feedback_agent",
-#     team=[stock_agent],
-#     model=Groq(id="llama-3.3-70b-versatile",api_key=os.environ.get("GROQ_API_KEY")),
-#     instructions=[
-#         "go through the information provided by stock_agent ",
-#         "give information about the quality of content",
-#         "give what more information should be added to improve the response",
-#     ],
-#     show_tool_calls=True,
-#     markdown=True,
-# )
-
-# feedback_agent..print_response("provide information about the content",stream=True)
+ 
