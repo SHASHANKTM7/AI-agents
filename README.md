@@ -3,8 +3,8 @@
 -AI Agents are independent programs used to perform specific tasks.
 
 ## How Agents Work
--we can think of AI agents which has virtual arms and legs .here we can consider them as environment (databases or tools) and LLM as the brain.
--when AI Agents recieve input query it ineracts with tools to get information with the helo of model to produce response
+- we can think of AI agents which has virtual arms and legs .here we can consider them as environment (databases or tools) and LLM as the brain.
+- when AI Agents recieve input query it ineracts with tools to get information with the helo of model to produce response
 
 ## Agents Created And Worked On
 1. **[Financial_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/financial_agent_1.py)** an agent was created which is specialized in finance domain as it was having access to tools like yfinance and duckduckgo. it was a multi modal agent where i was interacting with 2 independent agents.
