@@ -20,4 +20,13 @@
 
 ## How Storage Works
 - Agent-storage:-this will be able to store the sessions
-- Agent memory:- is used to classify and store user preferences 
+- Agent memory:- is used to classify and store user preferences
+
+## Limitations
+- multi-agent-dependencies:-multi agents using the same  foundational model for 
+multi agent can lead to shared pitfall.
+ • infinite feedback loops:-some agents might not be able to find comprehensive 
+plan or reflect findings  due to which it might be calling the same tools due to which it can lead to infinite feedback loops.
+- building AI agents from scratch can be computationaly expensive .
+
+
