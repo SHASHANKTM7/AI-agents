@@ -14,7 +14,7 @@ esults of
 
 ## Results of Responses 
 
-- ![financial agent response for NVDA stock reccomondation]("C:\Users\SHASHANK_\Pictures\NVDA stock.png")
+- ![financial agent response for NVDA stock reccomondation](C:\Users\SHASHANK_\Pictures\NVDA stock.png)
    
 
 
