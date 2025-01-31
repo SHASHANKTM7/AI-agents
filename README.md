@@ -35,7 +35,7 @@ code_agent.print_response("write a python code to check if str(2a6b6a2) is a pal
 
 4. **[Sports_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/table_of_responses.py)** here also a multimodal agent was created which is used to generate a table of responses where each response where produced by independent agents.
 - important code for sports agent
-'''
+```
 multi_agent=Agent(
     name="multi_agent",
     team=[web_search_agent,wikipidia_agent],
