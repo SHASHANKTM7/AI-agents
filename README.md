@@ -8,7 +8,7 @@
 
 ## Agents Created And Worked On
 1. **[Financial_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/financial_agent_1.py)** an agent was created which is specialized in finance domain as it was having access to tools like yfinance and duckduckgo. it was a multi modal agent where i was interacting with 2 independent agents.
-- important code
+- important code for financial_agent
 ```
 stock_agent=Agent(
     name="stock_agent",
@@ -22,8 +22,30 @@ stock_agent.print_response('nvda stock information')
 ```
    
 3. **[Python_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/python_agent.py)**  an agent was created  which is used to provide python code along with steps when a query or problem is given.
+- important code for  python_agent
+```
+code_agent=Agent(
+    name="code_agent",
+    model=Groq(id="llama-3.3-70b-versatile", api_key=os.environ.get("GROQ_API_KEY")),
+    tools=[PythonTools()], show_tool_calls=True,
+    markdown=True,
+)
+code_agent.print_response("write a python code to check if str(2a6b6a2) is a palindrome and show the result",stream=True)
+```
+
 4. **[Sports_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/table_of_responses.py)** here also a multimodal agent was created which is used to generate a table of responses where each response where produced by independent agents.
-esults of
+- important code for sports agent
+'''
+multi_agent=Agent(
+    name="multi_agent",
+    team=[web_search_agent,wikipidia_agent],
+    model=Groq(id="llama-3.3-70b-versatile",api_key=os.environ.get("GROQ_API_KEY")),
+    instructions=["create a table where each column has responses of each agent"],
+    show_tool_calls=True,
+    markdown=True,
+)
+multi_agent.print_response("give information about football worldcup ")
+```
 
 ## Results of Responses 
 
