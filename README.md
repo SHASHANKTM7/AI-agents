@@ -20,6 +20,7 @@ stock_agent=Agent(
 )
 
 stock_agent.print_response('nvda stock information')
+```markdown
    
 3. **[Python_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/python_agent.py)**  an agent was created  which is used to provide python code along with steps when a query or problem is given.
 4. **[Sports_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/table_of_responses.py)** here also a multimodal agent was created which is used to generate a table of responses where each response where produced by independent agents.
