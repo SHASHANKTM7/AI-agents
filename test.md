@@ -13,13 +13,13 @@ NAME                        TYPE           CLUSTER-IP      EXTERNAL-IP     PORT(
 airflow-webserver           LoadBalancer   10.100.200.10   34.120.45.67    8080:80/TCP      10m
 postgres-postgresql         ClusterIP      10.100.200.11   <none>          5432/TCP         10m
 ```
-# Step 2 :  Check the Type of Service
 
 ## Step 2: Check the Type of Service
-- if `TYPE=LoadBalancer` → The **`EXTERNAL-IP`** (e.g., **`34.120.45.67`**) is the public IP. Open Chrome and visit:
-
+- **if** `TYPE=LoadBalancer` → The **`EXTERNAL-IP`** (e.g., **`34.120.45.67`**) is the public IP. Open Chrome and visit:
   ```arduino
   http://34.120.45.67:8080
+  ```
+  
 
  
 
