@@ -14,13 +14,13 @@ esults of
 
 ## Results of Responses 
 
--NVDA Stock Reccomondation
+- NVDA Stock Reccomondation
 ![Alt text](https://github.com/user-attachments/assets/2f5090bb-058b-42e0-9e0a-d6f663e829ea)
 
--Python Agent
+- Python Agent
 ![Alt text](https://github.com/user-attachments/assets/fc406c7a-7e99-4b48-84c7-c05b3917d67e)
 
--sport agent (response table)
+- sport agent (response table)
 ![Alt text](https://github.com/user-attachments/assets/2e7ad9f8-2a1d-474c-addf-61bba26758db)
 
 ## Storage
