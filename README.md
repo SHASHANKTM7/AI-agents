@@ -17,6 +17,9 @@ esults of
 -NVDA Stock Reccomondation
 ![Alt text](https://github.com/user-attachments/assets/2f5090bb-058b-42e0-9e0a-d6f663e829ea)
 
+-Python Agent
+![Alt text](C:\Users\SHASHANK_\Pictures\python_code.png)
+
 ## Storage
 - **Agent storage** :- will be able to store sessions and is better than built in memory as built in memory has some limitations (it needs the sessionID to be active to persist storage)
 - **Agent memory** :- is used to classify and store user preferences . this will give better reponses to the user.
