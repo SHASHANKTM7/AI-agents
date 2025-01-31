@@ -13,9 +13,32 @@
 esults of
 
 ## Results of Responses 
-
 - ![financial agent response for NVDA stock reccomondation](C:\Users\SHASHANK_\Pictures\NVDA stock.png)
-   
+
+## Storage
+- **Agent storage** :- will be able to store sessions and is better than built in memory as built in memory has some limitations (it needs the sessionID to be active to persist storage)
+- **Agent memory** :- is used to classify and store user preferences . this will give better reponses to the user.
+
+## Limitations
+- **Multi-agent-dependencies** :- multi-agents sharing the same foundatinal model will share the same pitfalls. to work under normal conditions it is better to use different model for each agent.
+- reasoning is good but there may be cases encountered where the agent is not able to do deal with the steps due to which the tools are called again and again and this might lead to loop which causes time consumption.
+- building AI agents from scratch can be expensive , require more resources and leads to more time consumption.
+
+## Overcoming Limitations 
+- Developers can give access to users for **log of actions** . where each intermidiate step of what is being happpened is being controlled by user and describes about the error encounterd.
+- to avoid  infinite loop we can go for **interuptability** where each sub task or action can be controlled and the looping caused by tools can be overcomed.
+- it is better to go for human feedback to improve responses compared to agent feedback.
+
+## Benifits
+- Complex tasks are solved autonomusly
+- multi modal agents work better because more plans of action is available and more learning and relflection occours.
+- Agent provide responses that are more accurate and personalised responses.
+
+## References and Documentation
+**[Phi Data Documentation]( https://docs.phidata.com/introduction)** 
+**[IBM Documentation](https://www.ibm.com/think/topics/ai-agents)** 
+**[AWS Documentation](https://aws.amazon.com/what-is/ai-agents/)**
+ 
 
 
 
