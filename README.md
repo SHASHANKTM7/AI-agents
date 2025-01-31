@@ -35,9 +35,9 @@ esults of
 - Agent provide responses that are more accurate and personalised responses.
 
 ## References and Documentation
-**[Phi Data Documentation]( https://docs.phidata.com/introduction)** 
-**[IBM Documentation](https://www.ibm.com/think/topics/ai-agents)** 
-**[AWS Documentation](https://aws.amazon.com/what-is/ai-agents/)**
+- **[Phi Data Documentation]( https://docs.phidata.com/introduction)** 
+- **[IBM Documentation](https://www.ibm.com/think/topics/ai-agents)** 
+- **[AWS Documentation](https://aws.amazon.com/what-is/ai-agents/)**
  
 
 
