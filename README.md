@@ -13,7 +13,9 @@
 esults of
 
 ## Results of Responses 
-![Alt text]("NVDA stock.png")
+
+-NVDA Stock Reccomondation
+![Alt text](https://github.com/user-attachments/assets/2f5090bb-058b-42e0-9e0a-d6f663e829ea)
 
 ## Storage
 - **Agent storage** :- will be able to store sessions and is better than built in memory as built in memory has some limitations (it needs the sessionID to be active to persist storage)
