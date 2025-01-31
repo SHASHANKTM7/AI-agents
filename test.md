@@ -26,7 +26,7 @@ kubectl get nodes -o wide
 ```
 Find the **EXTERNAL-IP** of the node and access it in Chrome:
 ```arduino
-http://<NODE-EXTERNAL-IP>:30080
+_http://<NODE-EXTERNAL-IP>:30080_
 ```
   
 
