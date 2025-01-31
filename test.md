@@ -36,4 +36,5 @@ GitHub does not support direct **coloring inside code blocks**, so for an **exac
     <td><code style="color: #d4af37;">5432/TCP</code></td>
   </tr>
 </table>
+```
 
