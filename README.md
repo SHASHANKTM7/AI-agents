@@ -13,7 +13,7 @@
 esults of
 
 ## Results of Responses 
-![Alt text]("NVDA stock.png")
+![Alt text]("AI-agents/NVDA stock.png")
 
 ## Storage
 - **Agent storage** :- will be able to store sessions and is better than built in memory as built in memory has some limitations (it needs the sessionID to be active to persist storage)
