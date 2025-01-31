@@ -1,6 +1,4 @@
 ## To access your Kubernetes service in **Chrome** and get the **IP of the server**, follow these steps:
----
-
 # Step 1 :Get Service Details
 run
 ```
