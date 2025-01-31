@@ -13,7 +13,7 @@
 esults of
 
 ## Results of Responses 
-![financial agent response for NVDA stock reccomondation](C:\Users\SHASHANK_\Pictures\NVDA stock.png)
+![financial agent response for NVDA stock reccomondation]
 
 ## Storage
 - **Agent storage** :- will be able to store sessions and is better than built in memory as built in memory has some limitations (it needs the sessionID to be active to persist storage)
