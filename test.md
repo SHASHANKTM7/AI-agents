@@ -28,6 +28,11 @@ Find the **EXTERNAL-IP** of the node and access it in Chrome:
 ```arduino
 _http://<NODE-EXTERNAL-IP>:30080_
 ```
+
+```markdown
+<div style="font-family:monospace; color:#888;">
+http://34.120.45.67:8080
+</div>
   
 
  
