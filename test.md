@@ -20,6 +20,14 @@ postgres-postgresql         ClusterIP      10.100.200.11   <none>          5432/
   http://34.120.45.67:8080
   ```
 - **If** `TYPE=ClusterIP` → This is only accessible inside the cluster. You need to use `port-forward` (see next step).
+- If `TYPE=NodePort` → The service is exposed on a port (e.g.,`30080`). Run:
+```
+kubectl get nodes -o wide
+```
+Find the **EXTERNAL-IP** of the node and access it in Chrome:
+```arduino
+http://<NODE-EXTERNAL-IP>:30080
+```
   
 
  
