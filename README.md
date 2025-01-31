@@ -8,8 +8,21 @@
 
 ## Agents Created And Worked On
 1. **[Financial_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/financial_agent_1.py)** an agent was created which is specialized in finance domain as it was having access to tools like yfinance and duckduckgo. it was a multi modal agent where i was interacting with 2 independent agents.
-2. **[Python_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/python_agent.py)**  an agent was created  which is used to provide python code along with steps when a query or problem is given.
-3. **[Sports_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/table_of_responses.py)** here also a multimodal agent was created which is used to generate a table of responses where each response where produced by independent agents.
+- important code
+```scss
+stock_agent=Agent(
+    name="stock_agent",
+    team=[web_search_agent,finance_agent],
+    model=Groq(id="llama-3.3-70b-versatile",api_key=os.environ.get("GROQ_API_KEY")),
+    instructions=["provide information in few sentences regarding input text "],
+    show_tool_calls=True,
+    markdown=True,
+)
+
+stock_agent.print_response('nvda stock information')
+   
+3. **[Python_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/python_agent.py)**  an agent was created  which is used to provide python code along with steps when a query or problem is given.
+4. **[Sports_Agent](https://github.com/SHASHANKTM7/AI-agents/blob/main/table_of_responses.py)** here also a multimodal agent was created which is used to generate a table of responses where each response where produced by independent agents.
 esults of
 
 ## Results of Responses 
